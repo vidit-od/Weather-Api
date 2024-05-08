@@ -17,15 +17,15 @@ export function ForecastComponent({data}){
         <div className="LongList">
         <div  className="field2">
                 <div className="field">
-                    <p> Time :</p>
+                    <p>Time</p>
                     { item.dt_txt}
                 </div>
                 <div className="field">
-                    <p> Temp: </p>
+                    <p>Temp</p>
                     {item.main.temp} deg kelvin
                 </div>
                 <div className="field">
-                    <p>Temp Feels Like:</p>
+                    <p>Temp Feels Like</p>
                     {item.main.feels_like} deg kelvin
                 </div>
                 <div className="field">
@@ -33,7 +33,7 @@ export function ForecastComponent({data}){
                     {item.main.humidity}
                 </div>
                 <div className="field">
-                    <p> pressure </p>
+                    <p>Pressure </p>
                     {item.main.pressure}
                 </div>
                 <div className="field">
@@ -41,16 +41,12 @@ export function ForecastComponent({data}){
                     {item.visibility}
                 </div>
                 <div className="field">
-                    <p>Overall weather: </p>
+                    <p>Overall weather</p>
                     {item.weather[0].main}
                 </div>
                 <div className="field">
-                    <p> Description: </p>
+                    <p> Description </p>
                     {item.weather[0].description}
-                </div>
-                <div className="field">
-                    <p>Wind Speed</p>
-                    {item.wind.speed}
                 </div>
             </div>
         </div>

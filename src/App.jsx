@@ -37,7 +37,7 @@ function App() {
     getAirdaa().then((ans)=> {setAirdata(ans)});
   },[coordinates])
   return (
-    <div>
+    <div className='weather-api'>
       <Header/>
       <div className='main'>
         <div className="first">
