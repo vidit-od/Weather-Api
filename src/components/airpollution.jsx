@@ -17,7 +17,6 @@ export function Aircomponent({data}){
         case 5: aqi_index = 'Very Poor'
         break;
     }
-    console.log(aqi_index);
     return <div style={{backgroundColor:'white'}}>
         <div className="heading">Air Pollution</div>
         <div className="content">
