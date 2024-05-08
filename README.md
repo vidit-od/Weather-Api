@@ -37,13 +37,13 @@ This dashboard fetches weather information from the OpenWeather API based on coo
 - `src/index.js`: Entry point of the application.
 
 ## Components
-- <WrapperComponent />: To create card like effect.
-- <Coordinates />: This is where users can change the Longitude and Latitude to get data of any city
-- <LocationComponent />: Contains Information of the selected Location.
-- <Header />: Not really needed ; A component for the heading of the app.
-- <ForecastComponent />: Contains information of Forcasted weather, 40 timestamps each at an interval of 3hrs from current time are available. A state variable is defined to travers over these timestamps.
-- <CurrentComponent />: Contains Current Weather data like tempreature, Humidity and others.
-- <Aircomponent />: Contains Airquality index and concentration of different gasses in air's data.
+- `<WrapperComponent />`: To create card like effect.
+- `<Coordinates />`: This is where users can change the Longitude and Latitude to get data of any city
+- `<LocationComponent />`: Contains Information of the selected Location.
+- `<Header />`: Not really needed ; A component for the heading of the app.
+- `<ForecastComponent />`: Contains information of Forcasted weather, 40 timestamps each at an interval of 3hrs from current time are available. A state variable is defined to travers over these timestamps.
+- `<CurrentComponent />`: Contains Current Weather data like tempreature, Humidity and others.
+- `<Aircomponent />`: Contains Airquality index and concentration of different gasses in air's data.
 
 ## How to Use
 
