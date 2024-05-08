@@ -58,7 +58,8 @@ This dashboard fetches weather information from the OpenWeather API based on coo
 3. Enter coordinates (latitude and longitude) to fetch weather information for that location.
 
 ## Frontend
-![Frontend](C:\Users\Asus\Downloads\screenshot (2).png)
+![Frontend](https://github.com/vidit-od/Weather-Api/assets/82703629/0a9e5396-3986-4c7e-8095-1a60948e1b34)
+
 
 ## Contributing
 
