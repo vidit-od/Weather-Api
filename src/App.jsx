@@ -7,7 +7,8 @@ import { LocationComponent } from './components/location'
 import { ForecastComponent } from './components/forecast'
 import { CurrentComponent } from './components/current'
 import { Aircomponent } from './components/airpollution'
-const APIkey = "7f65c0ab308f1aa12b05da84128f6aea"
+
+const APIkey = process.env.REACT_APP_OPENWEATHER_API_KEY
 function App() {
   // lat: 23.2232877, lon: 72.6492267 
   const [coordinates, SetCoordinates] = useState({lat: 23.2232877, lon: 72.6492267})
